@@ -10,14 +10,14 @@ This project provides a comprehensive guide and utility scripts for using Terraf
 <br/><br/>
 
 ## Prerequisites 🧰
-✅ **AWS CLI:** Make sure you have the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) installed and configured with the necessary access rights to your AWS resources.  
+✅ **AWS CLI:** Make sure you have the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-version.html) installed and configured with the necessary access rights to your AWS resources.  
 ✅ **Terraform:** Ensure you have [Terraform](https://developer.hashicorp.com/terraform/install) installed on your machine. Terraform is required to manage the generated files and apply changes.  
 
 <br/><br/>
 
 ## Installation 🐾
 ### Installing Terraformer💫
-1) After installing Terraform, Download exe file for required cloud provider from [here](https://github.com/GoogleCloudPlatform/terraformer/releases). In our case it is windows amd64.  
+1) After installing Terraform, Download exe file for the required cloud provider from [here](https://github.com/GoogleCloudPlatform/terraformer/releases). In our case, it is windows amd64.  
 *source: https://github.com/GoogleCloudPlatform/terraformer/tree/master?tab=readme-ov-file#installation*
 
 2) Add the path to the Terraformer executable file to the environmental variables' "Path" variable on your local system.
