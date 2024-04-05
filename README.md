@@ -11,7 +11,7 @@ This project provides a comprehensive guide and utility scripts for using Terraf
 <br/><br/>
 
 ## Installation 🐾
-### Installing Terraformer
+### Installing Terraformer💫
 1) After installing Terraform, Download exe file for required cloud provider from [here](https://github.com/GoogleCloudPlatform/terraformer/releases). In our case it is windows amd64.  
 *source: https://github.com/GoogleCloudPlatform/terraformer/tree/master?tab=readme-ov-file#installation*
 
@@ -28,7 +28,7 @@ This project provides a comprehensive guide and utility scripts for using Terraf
             <br/><br/>
               <br/><br/>
             
-3) Create a folder📂(AWS to Terraform) and within it, create a file named "version.tf" to install the plugins required for your platform. For example, in our case we need plugins for the AWS Cloud so versions.tf should contain:
+3) Create a folder📂(AWS to Terraform) and within it, create a file  named "version.tf"📄 to install the plugins required for your platform. For example, in our case we need plugins for the AWS Cloud so versions.tf should contain:
 
 ```
 terraform {
