@@ -58,7 +58,7 @@ terraform {
 ```
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/1dc6fbcc-70c2-4d25-a7e7-230d3dc629b1)
 
-7) Run also [Here](https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md) are alternative commands you can use: 
+7) Run ( [Here](https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md) are alternative commands you can use)
 ```markdown
  terraformer import aws --resources=vpc,subnet --regions=eu-west-1
 ```
