@@ -62,7 +62,8 @@ terraform {
 ```markdown
  terraformer import aws --resources=vpc,subnet --regions=eu-west-1
 ```
-![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/19afa430-4e02-47a9-a5e3-09c6411617ca)
+![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/3cbc77f6-96a5-4d72-96d6-f253868401ba)
+
 
 ## Result
 In your folder, you will find a subfolder named generated where you can locate separate subfolders for your "vpc.tf" and "subnet.tf" files.
