@@ -1,6 +1,6 @@
 ﻿# Terraformer-AWS-Project
 
-This project provides a comprehensive guide and utility scripts for using Terraformer to import your existing AWS infrastructure into Terraform configuration files. Terraformer is a CLI tool that generates tf/json and tfstate files based on existing infrastructure (reverse Terraform). This process allows for a seamless transition to managing your infrastructure as code using Terraform
+This project offers a guide and scripts for using Terraformer to import your existing AWS infrastructure into Terraform configuration files. Terraformer is a CLI tool that generates tf/json and tfstate files based on existing infrastructure (reverse Terraform). This process allows for a seamless transition to managing your infrastructure as code using Terraform
 
 
 
