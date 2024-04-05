@@ -41,6 +41,11 @@ terraform {
   required_version = ">= 0.13"
 }
 ```
+or
+git clone this repo
+```markdown
+git clone https://github.com/al3v/Terraformer-AWS-Project.git
+```
 
 4) Configure AWS CLI 
 ```markdown
