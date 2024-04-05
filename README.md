@@ -4,7 +4,7 @@ This project provides a comprehensive guide and utility scripts for using Terraf
 
 <br/><br/>
 
-## Prerequisites
+## Prerequisites 🧰
 ✅ **AWS CLI:** Make sure you have the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) installed and configured with the necessary access rights to your AWS resources.  
 ✅ **Terraform:** Ensure you have [Terraform](https://developer.hashicorp.com/terraform/install) installed on your machine. Terraform is required to manage the generated files and apply changes.  
 
@@ -28,7 +28,7 @@ This project provides a comprehensive guide and utility scripts for using Terraf
             <br/><br/>
               <br/><br/>
             
-3) Create a folder📂(AWS to Terraform) and within it, create a file named "version.tf" to install the plugins required for your platform. For example, in our case we need plugins for the AWS Cloud, versions.tf should contain:
+3) Create a folder📂(AWS to Terraform) and within it, create a file named "version.tf" to install the plugins required for your platform. For example, in our case we need plugins for the AWS Cloud so versions.tf should contain:
 
 ```
 terraform {
@@ -42,30 +42,30 @@ terraform {
 }
 ```
 
-4) Configure AWS CLI
+4) Configure AWS CLI 
 ```markdown
  aws configure
 ```
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/2e21bca0-1628-47aa-ac70-4cfe530b28ce)
 
-5) Go inside of the folder and make sure that *version.tf* file is there
+5) Navigate into the folder and ensure that the version.tf file is present
 
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/c64c36be-eab8-4a49-a06a-0304cf0304d1)
 
-6) Run
+6) Run 🖱️
 ```markdown
  terraform init
 ```
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/1dc6fbcc-70c2-4d25-a7e7-230d3dc629b1)
 
-7) Run ( [Here](https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md) are alternative commands you can use)
+7) Run 🖱️( [Here](https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md) are alternative commands you can use)
 ```markdown
  terraformer import aws --resources=vpc,subnet --regions=eu-west-1
 ```
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/3cbc77f6-96a5-4d72-96d6-f253868401ba)
 
 
-## Result
+## Result ✨
 In your folder, you will find a subfolder named generated where you can locate separate subfolders for your "vpc.tf" and "subnet.tf" files.
 
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/dc83b7f1-98d9-4dff-b1c9-2ac80d078da4)
