@@ -58,14 +58,14 @@ terraform {
 ```
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/1dc6fbcc-70c2-4d25-a7e7-230d3dc629b1)
 
-7) Run
+7) Run also [Here](https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md) are alternative commands you can use: 
 ```markdown
  terraformer import aws --resources=vpc,subnet --regions=eu-west-1
 ```
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/19afa430-4e02-47a9-a5e3-09c6411617ca)
 
 ## Result
-In your folder, you will se a subfolder called **generated** you will see your vpc.tf and subnet.tf in their separeted sub folders
+In your folder, you will find a subfolder named generated where you can locate separate subfolders for your "vpc.tf" and "subnet.tf" files.
 
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/dc83b7f1-98d9-4dff-b1c9-2ac80d078da4)
 
