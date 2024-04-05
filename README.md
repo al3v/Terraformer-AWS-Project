@@ -71,7 +71,7 @@ git clone https://github.com/al3v/Terraformer-AWS-Project.git
 
 
 ## Result ✨
-In your folder, you will find a subfolder named generated where you can locate separate subfolders for your "vpc.tf" and "subnet.tf" files.
+In your folder(AWS to Terraform), you will find a subfolder named generated where you can locate separate subfolders for your "vpc.tf" and "subnet.tf" files.
 
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/dc83b7f1-98d9-4dff-b1c9-2ac80d078da4)
 
