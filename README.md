@@ -79,6 +79,12 @@ git clone https://github.com/al3v/Terraformer-AWS-Project.git
 terraformer import aws --resources="*" --regions=eu-central-1
 ```
 
+ To exclude some resources:
+```markdown
+terraformer import aws --resources="*" --excludes=identitystore --regions=eu-central-1
+```
+
+
 
 
 ## Result ✨
