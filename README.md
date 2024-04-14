@@ -76,7 +76,7 @@ git clone https://github.com/al3v/Terraformer-AWS-Project.git
 
 8) To import all resources
 ```markdown
-terraformer import aws --resources="*"
+terraformer import aws --resources="*" --regions=eu-central-1
 ```
 
 
