@@ -69,6 +69,8 @@ git clone https://github.com/al3v/Terraformer-AWS-Project.git
 ![image](https://github.com/al3v/Terraformer-AWS-Project/assets/73062283/1dc6fbcc-70c2-4d25-a7e7-230d3dc629b1)
 
 7) Run 🖱️( [Here](https://github.com/GoogleCloudPlatform/terraformer/blob/master/docs/aws.md) are alternative commands you can use)
+<br/><br/>
+❗PS: If you've already set a default region during AWS CLI configuration, there's no need to redefine it using the --region=eu-west-1 flag. Doing so might lead to potential issues.
 ```markdown
  terraformer import aws --resources=vpc,subnet --regions=eu-west-1
 ```
